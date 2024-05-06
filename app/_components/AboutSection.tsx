@@ -13,8 +13,8 @@ function AboutSection() {
 
   return (
     <section className='w-full h-[35vh] md:h-[50vh] py-8 px-8 text-white justify-between items-center flex md:flex-row flex-col gap-2 bg-black'>
-      <div className='group relative bg-white w-[50vw] md:w-[20vw]'>
-        <Image src={Pdp} className='w-full h-full' width={4000} height={4000} alt="profile picture" />
+      <div className='group relative  w-[50vw] md:w-[20vw]'>
+        <Image src={Pdp} className='w-full h-full' width={4000} height={4000} alt="profile picture" priority={true} />
         <div className={`absolute top-0 left-0 w-full h-full bg-black transition-all duration-500 ease-in-out opacity-0 ${hoverElement && 'opacity-25'}`} />
       </div>
       <div 

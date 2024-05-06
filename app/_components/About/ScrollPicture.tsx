@@ -84,16 +84,16 @@ function ScrollPicture() {
             desc : "Picture 13",
         },
     ]
-  return (
-    <div className='border-2 md:h-[55vh] md:w-[25vw] w-[65vw] h-[60vh] overflow-auto'>
-        {Pictures.map((element) => (
-            <div key={element.id } className='mb-2 border-2 border-black w-full flex flex-col items-center h-fit'>
-            <Image  alt={element.desc} src={element.picture}/>
-            </div>
-        ))}
-        
-    </div>
-  )
+    return (
+        <div className='border-2 md:h-[55vh] md:w-[25vw] w-[65vw] h-[60vh] overflow-auto'>
+            {Pictures.map((element, index) => (
+                <div key={element.id } className='mb-2 border-2 border-black w-full flex flex-col items-center h-fit'>
+                <Image  alt={element.desc} src={element.picture} priority={index === 0}/>
+                </div>
+            ))}
+            
+        </div>
+    )
 }
 
 export default ScrollPicture

@@ -22,10 +22,16 @@ function Navbar() {
             path : "/work"
         },
         {
-            id: 3,
+            id : 3,
+            name : "Podcast",
+            path : "/Podcast"
+        },
+        {
+            id: 4,
             name : "Contact",
             path : "/contact"
         },
+        
     ]
     
   return (

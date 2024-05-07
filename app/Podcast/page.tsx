@@ -20,7 +20,7 @@ function page() {
           <h1 className='text-xl font-brimestone'>Description</h1>
           <h3 >Edited & Filmed : <span className='font-brimestone '>Nizar Abdelkarim</span></h3>
           <h3 className=' px-2'>
-          🎙️ *Bienvenue sur la Chaîne "Club IMPACT FST Settat" !*
+            🎙️ *Bienvenue sur la Chaîne &quot;Club IMPACT FST Settat&quot; !*
 
 Découvrez le premier podcast jamais réalisé à la Faculté des Sciences et Techniques de Settat. 🌟
           </h3>
